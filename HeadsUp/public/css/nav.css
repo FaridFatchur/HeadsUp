@@ -1,0 +1,30 @@
+.form-control:focus {
+    border-color: initial; /* Reset border color to default */
+    box-shadow: none; /* Remove any box shadow applied on focus */
+    border-color: white; /* Change the border color to red when focused */
+    border-width: 3px; /* Increase border width on focus */
+    /* You can apply other styles as needed  */
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    color: white;
+    padding-inline: 20px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 6.25rem;
+}
+
+.nav-link {
+    font-size: 24px;
+}
