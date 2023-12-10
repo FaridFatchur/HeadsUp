@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+.jacques-font{
+    font-family: 'Jacques Francois', serif;
+}
+
+.button-buy-now {
+    background-color: #165E60;
+    min-height: 51px;
+    font-size: 28px;
+}
+
+.button-buy-now:hover{
+    background-color: #165E60;
+}
+
+
+

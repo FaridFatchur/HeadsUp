@@ -13,9 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
+    return view('user.home');
+});
+Route::get('/katalog', function () {
     return view('user.katalog');
 });
+
 
 /* Route::get('/katalog', function () {
     return view('katalog');

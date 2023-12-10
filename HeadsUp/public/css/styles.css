@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgba(241, 237, 135, 1);
+}
+
+.main{
+    margin: 75px 0;
+}
