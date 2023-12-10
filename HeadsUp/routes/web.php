@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function() {
     return view('user.home');
-});
+})->name('homePage');
 Route::get('/katalog', function () {
     return view('user.katalog');
-});
+})->name('katalogPage');
 
 
 /* Route::get('/katalog', function () {

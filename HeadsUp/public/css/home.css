@@ -1,18 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap");
 
-.jacques-font{
-    font-family: 'Jacques Francois', serif;
+.jacques-font {
+    font-family: "Jacques Francois", serif;
 }
 
 .button-buy-now {
-    background-color: #165E60;
+    background-color: #165e60;
     min-height: 51px;
     font-size: 28px;
 }
 
-.button-buy-now:hover{
-    background-color: #165E60;
+.button-buy-now:hover {
+    background-color: #165e60;
 }
 
+.top-section-1 {
+    margin-top: 150px;
+}
+
+.category-text {
+    height: 40px;
+    max-height: 50px;
+}
+
+.category-image {
+    width: 300px;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+    .three-Display-Pictures {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .three-Display-Pictures {
+        max-width: 400px;
+    }
+
+    .first-section{
+        justify-content: center !important;
+    }
 
 
+}
+@media screen and (min-width: 768px) {
+    .three-Display-Pictures {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .three-Display-Pictures {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .three-Display-Pictures {
+        width: 300px;
+    }
+}
