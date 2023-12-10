@@ -14,9 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Footer');
+    return view('user.katalog');
 });
 
-Route::get('/layout', function () {
-    return view('layout');
+/* Route::get('/katalog', function () {
+    return view('katalog');
 });
+
+Route::get('/navbar', function () {
+    return view('navbar');
+}); */
