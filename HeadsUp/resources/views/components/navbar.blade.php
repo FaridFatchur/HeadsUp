@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center" style="padding: 0">
         <div class="container-fluid" style="background-color: #E9385D; padding: 20px 4% 20px 4%">
-            <a class="navbar-brand" href=""><img src="{{ asset('svg/Heads Up.svg') }}" alt="Your SVG Image">
+            <a class="navbar-brand" href="{{ route('homePage') }}"><img src="{{ asset('svg/Heads Up.svg') }}" alt="Your SVG Image">
             </a>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
@@ -27,7 +27,7 @@
                         <li class="nav-item d-flex align-items-center">
                             <a href="wishlist"> <i class="far fa-heart icon-nav" style="padding-inline: 20px"></i> </a>
                             <a href="wishlist"> <i class="fas fa-shopping-cart icon-nav" style="padding-inline: 20px"></i> </a>
-                            <a href="wishlist"> <i class="far fa-user-circle icon-nav" style="padding-inline: 20px"></i> </a>
+                            <a href={{ route('akunPage') }}> <i class="far fa-user-circle icon-nav" style="padding-inline: 20px"></i> </a>
                         </li>
                     </ul>
                 </ul>
