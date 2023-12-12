@@ -25,9 +25,9 @@
                     </li>
                     <ul class="navbar-nav">
                         <li class="nav-item d-flex align-items-center">
-                            <i class="far fa-heart" style="padding-inline: 20px"></i>
-                            <i class="fas fa-shopping-cart" style="padding-inline: 20px"></i>
-                            <i class="far fa-user-circle" style="padding-inline: 20px"></i>
+                            <a href="wishlist"> <i class="far fa-heart icon-nav" style="padding-inline: 20px"></i> </a>
+                            <a href="wishlist"> <i class="fas fa-shopping-cart icon-nav" style="padding-inline: 20px"></i> </a>
+                            <a href="wishlist"> <i class="far fa-user-circle icon-nav" style="padding-inline: 20px"></i> </a>
                         </li>
                     </ul>
                 </ul>
