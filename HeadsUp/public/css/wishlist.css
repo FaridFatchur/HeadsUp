@@ -1,7 +1,7 @@
 .container-product-0{
     position: relative;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
     width: 200px;
     height: 250px;
     margin-top: 20px;
@@ -12,7 +12,7 @@
     background-color: white;
     border: 2px solid black;
     width: 200px;
-    height: 250px;
+    height: 260px;
 }
 
 .container-title-product{
