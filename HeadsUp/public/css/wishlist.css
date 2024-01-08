@@ -1,0 +1,31 @@
+.container-product-0{
+    position: relative;
+    background-color: white;
+    border: 5px solid black;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: -180px;
+}
+.container-product-1{
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+}
+
+.container-title-product{
+    width: 100%;
+    height: 50px;
+    background-color: #F58E96;
+}
+
+.product-image{
+    height: 130px;
+}
+
+.star-icon{
+    background-color: yellow;
+}
+

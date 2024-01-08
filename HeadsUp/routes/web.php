@@ -22,6 +22,9 @@ Route::get('/katalog', function () {
 Route::get('/akun', function () {
     return view('user.akun');
 })->name('akunPage');
+Route::get('/wishlist', function () {
+    return view('user.wishlist');
+})->name('akunPage');
 
 
 /* Route::get('/katalog', function () {
