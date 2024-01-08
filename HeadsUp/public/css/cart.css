@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+@font-face {
+    font-family: 'Jacques Francois';
+    src: url('/fonts/JacquesFrancois-Regular.ttf') format('truetype'),
+         url('/fonts/JacquesFrancois-Regular.woff') format('woff'),
+         url('/fonts/JacquesFrancois-Regular.woff2') format('woff2');
+    /* tambahkan format font lainnya jika diperlukan */
+  }
+  
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background:#F1ED87;
+}
+
+.size span {
+  font-size: 20px;
+}
+
+.color span {
+  font-size: 11px;
+}
+
+.product-deta {
+  margin-right: 70px;
+}
+
+.gift-card:focus {
+  box-shadow: none;
+}
+
+.pay-button {
+  color: #fff;
+}
+
+.pay-button:hover {
+  color: #fff;
+}
+
+.pay-button:focus {
+  color: #fff;
+  box-shadow: none;
+}
+
+.text-grey {
+  color: #a39f9f;
+}
+
+.qty i {
+  font-size: 11px;
+}
+
+#cart {
+    gap: 10px;
+}
+
+#quantity, #quantity2, #quantity3 {
+    width: 40px;
+}
+
+#prod-svg {
+    filter: drop-shadow(0px 5px 4px #000);
+    width: 139.792px;
+    height: 144.51px;
+    flex-shrink: 0;
+}
+
+#font-title{
+    color: #2F2F2F;
+    font-family: 'Jacques Francois';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#price-tag{
+    color: #E9385D;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Ganti tampilan default checkbox dengan sesuatu yang lebih besar */
+.custom-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 30px; /* Ubah lebar checkbox */
+    height: 30px; /* Ubah tinggi checkbox */
+    border: 2px solid #999; /* Tambahkan garis tepi */
+    border-radius: 5px; /* Buat sudut membulat */
+    outline: none; /* Hilangkan outline default */
+    cursor: pointer;
+  }
+  
+  /* Beri warna latar belakang pada checkbox saat dicentang */
+  .custom-checkbox:checked {
+    background-color: #2196F3; /* Warna latar belakang saat tercentang */
+  }
+  
+  /* Tampilan label (opsional) */
+  label {
+    margin-left: 10px; /* Beri sedikit jarak antara checkbox dan label */
+    cursor: pointer;
+  }
+
+/* Ganti tampilan saat checkbox tercentang */
+.custom-checkbox:checked {
+    text-align: center;
+    background-color: green; /* Warna latar belakang saat tercentang */
+    border-color: #2196F3; /* Warna border saat tercentang */
+  }
+  
+  /* Ganti tampilan dari tanda centang */
+  .custom-checkbox:checked:after {
+    content: "\2713"; /* Tanda centang Unicode */
+    font-size: 20px; /* Ukuran tanda centang */
+    color: #fff; /* Warna tanda centang */
+    text-align: center; /* Posisi tanda centang di tengah kotak */
+  }
+
+  #sc {
+    color: #000;
+    font-family: Arial;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .checkout-btn {
+    /* width: 330px;
+    height: 83px; */
+    flex-shrink: 0;
+    background-color: #165E60; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Hilangkan border tombol */
+    border-radius: 5px; /* Buat sudut membulat */
+    cursor: pointer; /* Ubah cursor saat mengarah ke tombol */
+    font-size: 16px; /* Ukuran teks tombol */
+    margin-right: 21rem;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #0c7cd5; /* Warna latar belakang saat hover */
+  }
+
+footer {
+    width: 100%;
+    height: 176px;
+    flex-shrink: 0;
+    background: #78A3AD;
+    margin-right: 10rem;
+}
+
+#price-tot {
+    color: #FFF;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 3rem;
+}
