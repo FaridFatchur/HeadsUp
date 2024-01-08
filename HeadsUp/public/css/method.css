@@ -1,0 +1,55 @@
+.wrapper
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+ }
+
+ h1
+{
+    font-weight: 700;
+}
+
+.item {
+    background-color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    width: 70vw;
+}
+
+.judul {
+    margin-bottom: 1.8rem ;
+}
+
+.item_card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+.item_card img:hover {
+    /* outline: 2px solid rgba(98, 173, 235, 0.767); */
+    box-shadow: 0px 0px 8px rgba(98, 173, 235, 0.767);
+}
+
+.opt {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+button {
+    padding: .8rem 3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #165E60;
+    color: white;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #257c80;
+}
