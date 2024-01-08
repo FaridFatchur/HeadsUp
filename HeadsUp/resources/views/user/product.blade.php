@@ -55,9 +55,11 @@
                 </div>
             </div>
             <div class="my-2 d-grid gap-2 d-md-flex justify-content-md-end">
-                <button type="button" class="btn btn-outline-secondary btn-lg">
-                    Add to Cart
-                </button>
+                <a href="{{ route('cartPage') }}">
+                    <button type="button" class="btn btn-outline-secondary btn-lg">
+                        Add to Cart
+                    </button>
+                </a>
                 <a href="{{ route('methodPage') }}"><button type="button" class="btn btn-success btn-lg">
                         Buy Now
                     </button>

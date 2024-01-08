@@ -81,7 +81,7 @@
             <!-- Button Delivery Method, Payment Method, Buat Pesanan -->
             <div class="mt-4">
                 <button type="button" class="btn btn-lgreen ml-2 me-2">Delivery Method</button>
-                <button type="button" class="btn btn-lgreen ml-2 me-2">Payment Method</button>
+                <a href="{{ route('methodPage') }}"><button type="button" class="btn btn-lgreen ml-2 me-2">Payment Method</button></a>
                 <button type="button" class="btn btn-green ml-2 me-2">Buat Pesanan</button>
             </div>
         </div>

@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/cart.css') }}">
-    <title>Document</title>
-</head>
-<body>
-    ex
+@extends('layout.layout_cart')
+@section('content')
     <div class="container mt-5 mb-5">
         <div class="d-flex justify-content-center row">
             <div class="col-md-8">
@@ -28,7 +17,7 @@
                             <button class="minus-btn" onclick="decrease()">-</button>
                             <input type="text" id="quantity" value="1">
                             <button class="plus-btn" onclick="increase()">+</button>
-                        </div>                          
+                        </div>
                     </div>
                     </div>
                     <input type="checkbox" id="checkbox1" class="custom-checkbox">
@@ -45,7 +34,7 @@
                             <button class="minus-btn" onclick="decrease2()">-</button>
                             <input type="text" id="quantity2" value="1">
                             <button class="plus-btn" onclick="increase2()">+</button>
-                        </div>                          
+                        </div>
                     </div>
                     </div>
                     <input type="checkbox" id="checkbox1" class="custom-checkbox">
@@ -62,7 +51,7 @@
                             <button class="minus-btn" onclick="decrease3()">-</button>
                             <input type="text" id="quantity3" value="1">
                             <button class="plus-btn" onclick="increase3()">+</button>
-                        </div>                          
+                        </div>
                     </div>
                     </div>
                     <input type="checkbox" id="checkbox1" class="custom-checkbox">
@@ -71,10 +60,10 @@
         </div>
     </div>
 
-    <footer class="d-flex justify-content-end align-items-center">
+    <footer class="d-flex justify-content-end align-items-center w-100">
         <div class="d-flex flex-row align-items-center mr-4">
             <p id="price-tot">Total Rp 2.480.000</p>
-            <button class="checkout-btn">Checkout (1)</button>
+            <a href="{{ route('checkoutPage') }}"><button class="checkout-btn">Checkout</button></a>
         </div>
     </footer>
 
@@ -121,5 +110,5 @@
         }
         }
     </script>
-</body>
-</html>
+
+@endsection

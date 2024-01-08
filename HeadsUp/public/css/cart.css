@@ -7,7 +7,7 @@
          url('/fonts/JacquesFrancois-Regular.woff2') format('woff2');
     /* tambahkan format font lainnya jika diperlukan */
   }
-  
+
 
 body {
   font-family: 'Manrope', sans-serif;
@@ -96,12 +96,12 @@ body {
     outline: none; /* Hilangkan outline default */
     cursor: pointer;
   }
-  
+
   /* Beri warna latar belakang pada checkbox saat dicentang */
   .custom-checkbox:checked {
     background-color: #2196F3; /* Warna latar belakang saat tercentang */
   }
-  
+
   /* Tampilan label (opsional) */
   label {
     margin-left: 10px; /* Beri sedikit jarak antara checkbox dan label */
@@ -114,7 +114,7 @@ body {
     background-color: green; /* Warna latar belakang saat tercentang */
     border-color: #2196F3; /* Warna border saat tercentang */
   }
-  
+
   /* Ganti tampilan dari tanda centang */
   .custom-checkbox:checked:after {
     content: "\2713"; /* Tanda centang Unicode */
@@ -131,7 +131,7 @@ body {
     font-weight: 700;
     line-height: normal;
   }
-  
+
   .checkout-btn {
     /* width: 330px;
     height: 83px; */
@@ -145,7 +145,7 @@ body {
     font-size: 16px; /* Ukuran teks tombol */
     margin-right: 21rem;
   }
-  
+
   .checkout-btn:hover {
     background-color: #0c7cd5; /* Warna latar belakang saat hover */
   }

@@ -15,18 +15,14 @@
                             Filter
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Headphone</a></li>
+                            <li><a class="dropdown-item" href="#">Earphone</a></li>
                         </ul>
                     </li>
                     <ul class="navbar-nav">
-                        <li class="nav-item d-flex align-items-center">
+                        <li class="nav-item d-flex align-items-center justifiy-content-end">
                             <a href="wishlist"> <i class="far fa-heart icon-nav" style="padding-inline: 20px"></i> </a>
-                            <a href="wishlist"> <i class="fas fa-shopping-cart icon-nav" style="padding-inline: 20px"></i> </a>
+                            <a href="{{ route('cartPage') }}"> <i class="fas fa-shopping-cart icon-nav" style="padding-inline: 20px"></i> </a>
                             <a href={{ route('akunPage') }}> <i class="far fa-user-circle icon-nav" style="padding-inline: 20px"></i> </a>
                         </li>
                     </ul>

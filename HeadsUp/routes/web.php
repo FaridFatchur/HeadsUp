@@ -34,6 +34,9 @@ Route::get('/method', function () {
 Route::get('/checkout', function () {
     return view('user.checkout');
 })->name('checkoutPage');
+Route::get('/cart', function () {
+    return view('user.cart');
+})->name('cartPage');
 
 
 /* Route::get('/katalog', function () {
