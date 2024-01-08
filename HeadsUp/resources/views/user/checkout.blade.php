@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="checkout.css">
-    <title>Checkout</title>
-</head>
-<body>
+@extends('layout.layout_checkout')
+@section('content')
 
 <table>
     <thead>
@@ -23,7 +16,7 @@
     <tbody>
         <tr>
             <td><a href="#" onclick="hapusBaris(this)">🗑️</a></td>
-            <td><img src="headphone.jpg" alt="Foto Produk"></td>
+            <td><img src="{{ asset('img/produk.png') }}" alt="Foto Produk"></td>
             <td>Detail Produk 1</td>
             <td>$10.00</td>
             <td>5</td>
@@ -46,13 +39,4 @@
         <!-- Tambahkan baris lain sesuai kebutuhan -->
     </tbody>
 </table>
-
-<script>
-    function hapusBaris(row) {
-        var index = row.parentNode.parentNode.rowIndex;
-        document.querySelector('table').deleteRow(index);
-    }
-</script>
-
-</body>
-</html>
+@endsection

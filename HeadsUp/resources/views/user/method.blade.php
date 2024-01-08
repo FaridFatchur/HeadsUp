@@ -1,4 +1,4 @@
-@extends('layout.layout_catalog')
+@extends('layout.layout_catalog_metode_pembayaran')
 
 @section('css')
     <link rel="stylesheet" href="{{ asset('css/method.css') }}">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <button>Submit</button>
+            <a href="{{ route('checkoutPage') }}"><button>Submit</button></a>
         </div>
     </div>
 @endsection

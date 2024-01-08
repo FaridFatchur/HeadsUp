@@ -95,3 +95,8 @@
     color: #000025;
     background-color: white;
   }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
