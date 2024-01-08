@@ -6,7 +6,7 @@
             <h1>Headphones</h1>
         </div>
         <div class="card_catalog">
-            <a class="card__item">
+            <a href="{{ route('productPage') }}" class="card__item">
                 <h4>Wireless Soundcore Q20i</h4>
                 <img src="{{ asset('img/produk.png') }}" alt="" />
                 <div class="item__head">
@@ -14,35 +14,35 @@
                 </div>
             </a>
 
-            <a class="card__item">
+            <a href="{{ route('productPage') }}" class="card__item">
                 <h4>Wireless Soundcore Q20i</h4>
                 <img src="{{ asset('img/produk.png') }}" alt="" />
                 <div class="item__head">
                     <p>Rp.1.7000.000.</p>
                 </div>
             </a>
-            <a class="card__item">
+            <a href="{{ route('productPage') }}" class="card__item">
                 <h4>Wireless Soundcore Q20i</h4>
                 <img src="{{ asset('img/produk.png') }}" alt="" />
                 <div class="item__head">
                     <p>Rp.1.7000.000.</p>
                 </div>
             </a>
-            <a class="card__item">
+            <a href="{{ route('productPage') }}" class="card__item">
                 <h4>Wireless Soundcore Q20i</h4>
                 <img src="{{ asset('img/produk.png') }}" alt="" />
                 <div class="item__head">
                     <p>Rp.1.7000.000.</p>
                 </div>
             </a>
-            <a class="card__item">
+            <a href="{{ route('productPage') }}" class="card__item">
                 <h4>Wireless Soundcore Q20i</h4>
                 <img src="{{ asset('img/produk.png') }}" alt="" />
                 <div class="item__head">
                     <p>Rp.1.7000.000.</p>
                 </div>
             </a>
-            <a class="card__item">
+            <a href="{{ route('productPage') }}" class="card__item">
                 <h4>Wireless Soundcore Q20i</h4>
                 <img src="{{ asset('img/produk.png') }}" alt="" />
                 <div class="item__head">
