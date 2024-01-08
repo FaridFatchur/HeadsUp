@@ -1,10 +1,5 @@
 @extends('layout.layout_checkout')
 @section('content')
-
-<!DOCTYPE html>
-<html lang="en">
-
-<body>
     <div class="container">
         <h2>Checkout</h2>
 
@@ -26,8 +21,11 @@
                     <!-- Isi tabel detail produk di sini -->
                     <tr>
                         <td><i class="fa fa-trash" aria-hidden="true" onclick="hapusBaris(this)"></i></td>
-                        <td><img src="headphone.jpg" alt="Foto Produk" class="img-thumbnail"></td>
-                        <td> <h5>Headphone ZXRI-X</h5> <br> <p>Variant : Black, Wireless</p></td>
+                        <td><img src="{{ asset('/img/produk.png') }}" alt="Foto Produk" class="img-thumbnail"></td>
+                        <td>
+                            <h5>Headphone ZXRI-X</h5> <br>
+                            <p>Variant : Black, Wireless</p>
+                        </td>
                         <td>Rp 1.700.000</td>
                         <td>1</td>
                         <td>In Stock</td>
@@ -82,25 +80,10 @@
 
             <!-- Button Delivery Method, Payment Method, Buat Pesanan -->
             <div class="mt-4">
-                <button type="button" class="btn btn-lgreen ml-2">Delivery Method</button>
-                <button type="button" class="btn btn-lgreen ml-2">Payment Method</button>
-                <button type="button" class="btn btn-green ml-2">Buat Pesanan</button>
+                <button type="button" class="btn btn-lgreen ml-2 me-2">Delivery Method</button>
+                <button type="button" class="btn btn-lgreen ml-2 me-2">Payment Method</button>
+                <button type="button" class="btn btn-green ml-2 me-2">Buat Pesanan</button>
             </div>
         </div>
     </div>
-
-    <script>
-        function hapusBaris(row) {
-        var index = row.parentNode.parentNode.rowIndex;
-        document.querySelector('table').deleteRow(index);
-    }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
-</body>
-
-</html>
-
 @endsection

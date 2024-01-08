@@ -27,7 +27,13 @@ Route::get('/akun', function () {
 })->name('akunPage');
 Route::get('/wishlist', function () {
     return view('user.wishlist');
-})->name('akunPage');
+})->name('wishlistPage');
+Route::get('/method', function () {
+    return view('user.method');
+})->name('methodPage');
+Route::get('/checkout', function () {
+    return view('user.checkout');
+})->name('checkoutPage');
 
 
 /* Route::get('/katalog', function () {
