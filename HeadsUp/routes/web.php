@@ -19,6 +19,9 @@ Route::get('/', function() {
 Route::get('/katalog', function () {
     return view('user.katalog');
 })->name('katalogPage');
+Route::get('/product', function () {
+    return view('user.product');
+})->name('productPage');
 Route::get('/akun', function () {
     return view('user.akun');
 })->name('akunPage');
